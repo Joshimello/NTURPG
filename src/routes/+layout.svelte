@@ -58,6 +58,11 @@
         介紹
       </span>
     </a>
+    <a class="" href="#cmd">
+      <span class="text-xl underline-offset-6 hover:underline" style:color={$textColor}>
+        常用指令
+      </span>
+    </a>
     <span style:color={$textColor}>|</span>
     <a class="" href="#4">
       <span class="text-xl underline-offset-6 hover:underline" style:color={$textColor}>
@@ -95,6 +100,11 @@
   <a class="" href="#3">
     <span class="text-xl underline-offset-6 hover:underline">
       介紹
+    </span>
+  </a>
+  <a class="" href="#cmd">
+    <span class="text-xl underline-offset-6 hover:underline">
+      常用指令
     </span>
   </a>
   <span>—</span>

@@ -6,6 +6,21 @@
   import img4 from '$lib/img/4.png'
   import img5 from '$lib/img/5.png'
   import img6 from '$lib/img/6.png'
+  const cmds = [
+    ['/spawn', '- 回到主城。'],
+    ['/tpa ID', '- 請求tp到此玩家。'],
+    ['/tpahere ID', '- 請求玩家tp到此地。'],
+    ['/tpaccept', '- 接受tpa請求。'],
+    ['/tpacancel', '- 拒絕tpa請求。'],
+    ['/warp Shop', '- 前往伺服器商店。'],
+	['/warp Pshop', '- 前往玩家商店。'],
+	['/warp FishingArea', '- 前往伺服器釣魚池。'],
+	['/emf shop', '- 開啓釣魚商店。'],
+	['/skill', '- 查看自己的技能列表。'],
+	['/skill lang zh-CN', '- 設置中文語言。'],
+	['/msg ID', '- 私訊玩家。']
+
+  ]
 </script>
 
 <div class="w-full h-100vh" id="1">
@@ -98,58 +113,22 @@
   </div>
 </div>
 
-<div class="w-full flex flex-col gap-4 px-64 border-y-3 items-center <xl:px-32 <lg:px-4 py-16 <sm:flex-col ">
+
+
+<div class="w-full flex flex-col gap-4 px-64 border-y-3 items-center <xl:px-32 <lg:px-4 py-16 <sm:flex-col " id="cmd">
     <span class="text-4xl mb-16">
      伺服器常用指令
 	</span>
-	<div class="flex gap-2 items-center">
-	 <span class="text-xl bg-gray-200 rounded-xl py-2 px-4 font-mono">
-	  /spawn
-	 </span>
-	 <span class="text-xl">
-	  - 回到主城。
-	 </span>
-	</div>
-	<div class="flex gap-2 items-center">
-	 <span class="text-xl bg-gray-200 rounded-xl py-2 px-4 font-mono">
-	  /tpa ID
-	 </span>
-	 <span class="text-xl">
-	  - 請求tp到此玩家。
-	 </span>
-	</div>
-	<div class="flex gap-2 items-center">
-	 <span class="text-xl bg-gray-200 rounded-xl py-2 px-4 font-mono">
-	  /tpahere ID 
-	 </span>
-	 <span class="text-xl">
-	  - 請求玩家tp到此地。
-	 </span>
-	</div>
-	<div class="flex gap-2 items-center">
-	 <span class="text-xl bg-gray-200 rounded-xl py-2 px-4 font-mono">
-	  /tpaccept 
-	 </span>
-	 <span class="text-xl">
-	  - 接受tpa請求。
-	 </span>
-	</div>
-	<div class="flex gap-2 items-center">
-	 <span class="text-xl bg-gray-200 rounded-xl py-2 px-4 font-mono">
-	  /tpacancel
-	 </span>
-	 <span class="text-xl">
-	  - 拒絕tpa請求。
-	 </span>
-	</div>
-	<div class="flex gap-2 items-center">
-	 <span class="text-xl bg-gray-200 rounded-xl py-2 px-4 font-mono">
-	  /warp Shop 
-	 </span>
-	 <span class="text-xl">
-	  - 前往伺服器商店。
-	 </span>
-	</div>
+	{#each cmds as [cmd, desc]}
+    <div class="flex gap-2 items-center justify-center">
+      <span class="text-xl bg-gray-200 rounded-xl py-2 px-4 font-mono">
+        {cmd}
+      </span>
+      <span class="text-xl">
+        {desc}
+      </span>
+     </div>
+     {/each}
 </div>
 
 <div class="w-full flex flex-col gap-4 items-center justify-center p-16 border-y-3" id="4">
