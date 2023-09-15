@@ -98,6 +98,60 @@
   </div>
 </div>
 
+<div class="w-full flex flex-col gap-4 px-64 border-y-3 items-center <xl:px-32 <lg:px-4 py-16 <sm:flex-col ">
+    <span class="text-4xl mb-16">
+     伺服器常用指令
+	</span>
+	<div class="flex gap-2 items-center">
+	 <span class="text-xl bg-gray-200 rounded-xl py-2 px-4 font-mono">
+	  /spawn
+	 </span>
+	 <span class="text-xl">
+	  - 回到主城。
+	 </span>
+	</div>
+	<div class="flex gap-2 items-center">
+	 <span class="text-xl bg-gray-200 rounded-xl py-2 px-4 font-mono">
+	  /tpa ID
+	 </span>
+	 <span class="text-xl">
+	  - 請求tp到此玩家。
+	 </span>
+	</div>
+	<div class="flex gap-2 items-center">
+	 <span class="text-xl bg-gray-200 rounded-xl py-2 px-4 font-mono">
+	  /tpahere ID 
+	 </span>
+	 <span class="text-xl">
+	  - 請求玩家tp到此地。
+	 </span>
+	</div>
+	<div class="flex gap-2 items-center">
+	 <span class="text-xl bg-gray-200 rounded-xl py-2 px-4 font-mono">
+	  /tpaccept 
+	 </span>
+	 <span class="text-xl">
+	  - 接受tpa請求。
+	 </span>
+	</div>
+	<div class="flex gap-2 items-center">
+	 <span class="text-xl bg-gray-200 rounded-xl py-2 px-4 font-mono">
+	  /tpacancel
+	 </span>
+	 <span class="text-xl">
+	  - 拒絕tpa請求。
+	 </span>
+	</div>
+	<div class="flex gap-2 items-center">
+	 <span class="text-xl bg-gray-200 rounded-xl py-2 px-4 font-mono">
+	  /warp Shop 
+	 </span>
+	 <span class="text-xl">
+	  - 前往伺服器商店。
+	 </span>
+	</div>
+</div>
+
 <div class="w-full flex flex-col gap-4 items-center justify-center p-16 border-y-3" id="4">
   <span class="text-4xl">
     加入我們 Discord!
