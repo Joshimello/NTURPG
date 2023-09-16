@@ -6,6 +6,7 @@
   import img4 from '$lib/img/4.png'
   import img5 from '$lib/img/5.png'
   import img6 from '$lib/img/6.png'
+
   const cmds = [
     ['/spawn', '- 回到主城。'],
     ['/tpa ID', '- 請求tp到此玩家。'],
@@ -13,14 +14,14 @@
     ['/tpaccept', '- 接受tpa請求。'],
     ['/tpacancel', '- 拒絕tpa請求。'],
     ['/warp Shop', '- 前往伺服器商店。'],
-	['/warp Pshop', '- 前往玩家商店。'],
-	['/warp FishingArea', '- 前往伺服器釣魚池。'],
-	['/emf shop', '- 開啓釣魚商店。'],
-	['/skill', '- 查看自己的技能列表。'],
-	['/skill lang zh-CN', '- 設置中文語言。'],
-	['/msg ID', '- 私訊玩家。']
-
+  	['/warp Pshop', '- 前往玩家商店。'],
+  	['/warp FishingArea', '- 前往伺服器釣魚池。'],
+  	['/emf shop', '- 開啓釣魚商店。'],
+  	['/skill', '- 查看自己的技能列表。'],
+  	['/skill lang zh-CN', '- 設置中文語言。'],
+  	['/msg ID', '- 私訊玩家。']
   ]
+
 </script>
 
 <div class="w-full h-100vh" id="1">
@@ -113,11 +114,9 @@
   </div>
 </div>
 
-
-
 <div class="w-full flex flex-col gap-4 px-64 border-y-3 items-center <xl:px-32 <lg:px-4 py-16 <sm:flex-col " id="cmd">
-    <span class="text-4xl mb-16">
-     伺服器常用指令
+  <span class="text-4xl mb-16">
+    伺服器常用指令
 	</span>
 	{#each cmds as [cmd, desc]}
     <div class="flex gap-2 items-center justify-center">
@@ -127,8 +126,8 @@
       <span class="text-xl">
         {desc}
       </span>
-     </div>
-     {/each}
+    </div>
+  {/each}
 </div>
 
 <div class="w-full flex flex-col gap-4 items-center justify-center p-16 border-y-3" id="4">
