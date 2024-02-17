@@ -9,17 +9,13 @@
 
   const cmds = [
     ['/spawn', '- 回到主城。'],
-    ['/tpa ID', '- 請求tp到此玩家。'],
-    ['/tpahere ID', '- 請求玩家tp到此地。'],
-    ['/tpaccept', '- 接受tpa請求。'],
-    ['/tpacancel', '- 拒絕tpa請求。'],
-    ['/warp Shop', '- 前往伺服器商店。'],
-  	['/warp Pshop', '- 前往玩家商店。'],
-  	['/warp FishingArea', '- 前往伺服器釣魚池。'],
-  	['/emf shop', '- 開啓釣魚商店。'],
   	['/skill', '- 查看自己的技能列表。'],
   	['/skill lang zh-CN', '- 設置中文語言。'],
   	['/msg ID', '- 私訊玩家。']
+  	['/hat', '- 把手上拿著的東西帶上頭。']
+  	['/sethome <英文名稱>', '- 設置家的位置傳送。']
+  	['/delhome <英文名稱>', '- 刪除家的位置傳送。']
+  	['/home <英文名稱>', '- 傳送到設置家的位置。']
   ]
 
 </script>
