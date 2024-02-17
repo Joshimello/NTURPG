@@ -35,7 +35,7 @@
       <a class="text-white border-2 px-8 py-4 rounded-full <sm:w-full" href="#2">
         <span class="text-white text-2xl">
           了解更多
-        <span/>
+        </span>
       </a>
     </div>
   </div>
